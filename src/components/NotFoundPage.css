@@ -1,0 +1,13 @@
+.not-found-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+  }
+  
+  .not-found-page__title {
+    font-size: 10rem;
+    color: #007bff;
+    text-shadow: 2px 2px #ccc;
+  }

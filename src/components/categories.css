@@ -1,0 +1,117 @@
+.world-map-container {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  background-image: url('../../public/word.jpg');
+  background-size: cover;
+  background-position: center;
+  text-decoration: none;
+
+  /* z-index: -1; */
+}
+
+.world-map {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+}
+
+.world-map-boxes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.world-map-box {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  width: 20%;
+  height: 30.33%;
+  border: 1px solid #fff;
+  border-radius: 5px;
+  box-sizing: border-box;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  background-color: #E8F3F3; /* Add background color */
+  margin: 10px; /* Add margin */
+  text-decoration: none;
+
+}
+
+.world-map-box:hover {
+  transform: scale(1.05);
+  background-color: #25BCD1; /* Change background color on hover */
+}
+
+.world-map-box:hover i {
+  color: #fff;
+}
+
+.world-map-box.selected {
+  background-color: #25BCD1;
+  opacity: 0.7;
+}
+
+.world-map-box.selected i {
+  color: #00AAA1;
+  opacity: 1;
+}
+
+.world-map-box:hover {
+  transform: scale(1.05);
+}
+.world-map-box:not(:hover) i {
+  color: #63E6BE;
+}
+
+.world-map-box h4 {
+  text-decoration: none;
+  font-size: 1.5rem;
+  color: black;
+  text-align: center;
+  margin: 0;
+
+}
+
+.environment {
+  display: flex;
+  flex-direction: column;
+  background-color: #E8F3F3;
+}
+
+.food {
+  background-color: #E8F3F3;
+}
+
+.technology {
+  background-color: #E8F3F3;
+}
+
+.topics {
+  background-color: #E8F3F3;
+}
+
+.lifestyle {
+  background-color: #E8F3F3;
+}
+
+.healthcare {
+  background-color: #E8F3F3;
+}
+
+.photography {
+  background-color: #E8F3F3;
+}

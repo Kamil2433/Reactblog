@@ -1,0 +1,47 @@
+/* Header.css */
+header {
+    background-color:white;
+    color: rgb(22, 2, 2);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+  }
+  
+  header h1 {
+    margin: 0;
+    font-size: 1.5rem;
+  }
+  header img {
+    height: 6rem; /* Set the height of the logo image */
+    margin-right: 1rem;
+  }
+  
+  header nav ul {
+    list-style-type: none;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  header nav ul li {
+    margin-right: 1rem;
+    text-decoration: none;
+
+  }
+  header nav ul li a {
+    text-decoration: none;
+    color: inherit; /* This will make the link color inherit the color of the parent li element */
+    &:hover {
+      text-decoration: underline; /* This will add an underline when the link is hovered over */
+    }
+    &:focus,
+    &:active {
+      text-decoration: none; /* This will remove the underline when the link is clicked */
+    }
+  }
+  
+
+
+  

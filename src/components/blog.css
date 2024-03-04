@@ -1,0 +1,145 @@
+.blog-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0 -10px;
+    width: 100%;
+  }
+
+  
+  .blog-entry {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-bottom: 30px;
+  }
+  
+  .blog-entry h2 {
+    margin-top: 0;
+  }
+  
+  .blog-entry img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+  }
+  
+  .video-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+    max-width: 100%;
+  }
+  
+  .video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+.blog-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  /* height: 100vh; This will make the wrapper take up the full height of the viewport */
+}
+  
+.pagination-container {
+    display: flex;
+    justify-content: center;
+    margin: 30px 0;
+    border: 2px solid blue;
+    border-radius: 10px;
+    padding: 10px;
+
+  }
+  
+  .pagination-controls {
+    display: flex;
+    align-items: center;
+    margin: 0 10px;
+  }
+  
+  .pagination-btn {
+    background-color: transparent;
+    border: none;
+    color: #333;
+    cursor: pointer;
+    padding: 5px 10px;
+    margin: 0 5px;
+  }
+  
+  .pagination-btn:hover {
+    background-color: #ccc;
+  }
+  
+  .pagination-btn.active {
+    background-color: blue;
+    color: white;
+    border-radius: 5px;
+  }
+  
+  .pagination-ellipsis {
+    display: flex;
+    align-items: center;
+    margin: 0 10px;
+    color: blue;
+  }
+  
+  .pagination-ellipsis span {
+    margin: 0 5px;
+  }
+
+  .blog-author {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .blog-author-img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 10px;
+  }
+  
+  .blog-author-info {
+    margin: 0;
+  }
+  
+  .blog-author-name {
+    margin: 0;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  .blog-author-date {
+    margin: 0;
+    font-size: 12px;
+    color: #666;
+  }
+
+  .blog-author-container{
+        display: flex;
+        flex-direction: column;
+
+
+  }
+  .blog-category {
+    top: 10px;
+    left: 10px;
+    background-color: #007bff;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 20px;
+    font-size: 12px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    float: left;
+  }
+
